@@ -155,17 +155,15 @@
 
         <!-- App Frame -->
         <div class="app-frame">
-            <div class="loading-overlay" id="loadingOverlay">
-                <div class="loading-spinner"></div>
-                <div class="loading-text">Chargement de l'app... ✨</div>
+            <!-- Contenu temporaire en attendant l'URL correcte -->
+            <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100%; color: white; text-align: center; padding: 2rem;">
+                <h2>🚀 Application en cours de chargement...</h2>
+                <p>L'app "Dis Maman !" sera bientôt accessible directement ici !</p>
+                <p style="margin-top: 2rem; opacity: 0.8;">En attendant, téléchargez l'app mobile :</p>
+                <a href="https://apps.apple.com/app/dis-maman" style="display: inline-block; margin-top: 1rem; background: rgba(255,255,255,0.2); padding: 1rem 2rem; border-radius: 25px; color: white; text-decoration: none;">
+                    📱 Télécharger sur l'App Store
+                </a>
             </div>
-            <iframe 
-                src="https://dismaman-mobile.preview.emergentagent.com" 
-                class="app-iframe"
-                id="appIframe"
-                onload="hideLoading()"
-                title="Dis Maman ! App"
-            ></iframe>
         </div>
     </div>
 
