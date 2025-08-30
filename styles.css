@@ -90,12 +90,23 @@ body {
     color: #667eea;
 }
 
-.cta-nav {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white !important;
-    padding: 10px 20px;
+.nav-link.cta-nav {
+    background: linear-gradient(135deg, #ff6b9d, #c44569);
+    color: white;
+    padding: 0.5rem 1rem;
     border-radius: 25px;
-    transition: transform 0.3s ease;
+    font-weight: 600;
+    box-shadow: 0 4px 15px rgba(255, 107, 157, 0.4);
+}
+
+.nav-link.app-link {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    font-weight: 600;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+    margin-right: 0.5rem;
 }
 
 .cta-nav:hover {
